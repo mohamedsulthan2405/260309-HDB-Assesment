@@ -70,4 +70,4 @@ Or run manually in this order:
 
 ## Docs
 
-See `docs/HDB_Resale_ETL_&_ELT_Technical_Guide.pdf` for full pipeline documentation and `docs/architecture/` for AWS and Azure data platform architecture diagrams.
+See `03. Documents/01. technical Document/HDB_Resale_ETL_&_ELT_Technical_Guide.pdf` for full pipeline documentation and `03. Documents/02. Data Platform Architecture/HDB_Proposed_Data_Platform_Architecture_AWS_vs_Azure.pptx` for AWS and Azure data platform architecture diagrams.
