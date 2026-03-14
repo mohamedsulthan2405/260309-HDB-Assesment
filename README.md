@@ -16,7 +16,7 @@ ETL pipeline for Singapore HDB resale transaction data (2012–2016), built on D
 
 **1. Upload source CSV files to DBFS**
 
-Download data from https://data.gov.sg/collections/189/view and upload to:
+Download the required data and upload to:
 ```
 dbfs:/FileStore/hdb_resale_datasets/
 ```
