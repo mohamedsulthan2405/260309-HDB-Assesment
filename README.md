@@ -1,4 +1,4 @@
-# HDB Resale Flat Prices — ETL Pipeline
+# HDB Resale Flat Prices — ETL / ELT Pipeline
 
 ETL pipeline for Singapore HDB resale transaction data (2012–2016), built on Databricks using Python and PySpark. Implements Medallion Architecture (Bronze / Silver / Gold).
 
@@ -18,7 +18,7 @@ ETL pipeline for Singapore HDB resale transaction data (2012–2016), built on D
 
 Download data from https://data.gov.sg/collections/189/view and upload to:
 ```
-dbfs:/FileStore/test/
+dbfs:/FileStore/hdb_resale_datasets/
 ```
 
 **2. Import notebooks**
@@ -32,7 +32,7 @@ Upload all notebooks from the `notebooks/` folder into the same Databricks works
 
 | Setting | Default |
 |---------|---------|
-| `SOURCE_PATH` | `dbfs:/FileStore/test/` |
+| `SOURCE_PATH` | `dbfs:/FileStore/hdb_resale_datasets/` |
 | `DATE_START` | `2012-01-01` |
 | `DATE_END` | `2016-12-31` |
 
