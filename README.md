@@ -70,4 +70,4 @@ Or run manually in this order:
 
 ## Docs
 
-See `docs/HDB_Pipeline_Technical_Guide.docx` for full pipeline documentation and `docs/architecture/` for AWS architecture diagrams.
+See `docs/HDB_Resale_ETL_&_ELT_Technical_Guide.pdf` for full pipeline documentation and `docs/architecture/` for AWS and Azure data platform architecture diagrams.
